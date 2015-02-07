@@ -1,2 +1,57 @@
-<div class='container' ng-controller="MovieController">
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><span typewrite="" type-delay="100" text="['Sarendipety', 'Serendipity']" initial-delay="100" erase-delay='200' blink-cursor='false'></span> Custom Cards</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+      <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a></li>
+      <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a></li>
+      <li><a href="#"><i class="fa fa-envelope-o fa-lg"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class='container'>
+  <div class="row">
+    <div class="col-md-12" id='carousel-container'>
+      <div>
+        <carousel interval="myInterval">
+        <slide ng-repeat="slide in slides" active="slide.active">
+        <img ng-src="{{slide.image}}" id='cat-image'>
+        </slide>
+        </carousel>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" id='front-page-info-container'>
+    <div class="col-md-6">
+      <h4 class='header-title'>Serendipity Custom Cards</h4>
+      <p>A paragragh about Serendipity Custom Cards</p>
+    </div>
+    <div class="col-md-6">
+      <h4 class='header-title'>Why Custom?</h4>
+      <p>A paragragh about the advantages of buying custom cards</p>
+    </div>
+  </div>
 </div>
+
+<nav class="navbar navbar-default navbar-fixed-bottom">
+  <div class="container">
+    <div id='bottom-nav'>
+      <span><a href="#">Welcome</a></span>
+      <span><i class="fa fa-heart-o"></i></span>
+      <span><a href="#">About Jenny</a></span>
+      <span><i class="fa fa-heart-o"></i></span>
+      <span><a href="#">Invitations</a></span>
+      <span><i class="fa fa-heart-o"></i></span>
+      <span><a href="#">Blog</a></span>
+      <span><i class="fa fa-heart-o"></i></span>
+      <span><a href="#">ETSY</a></span>
+      <span><i class="fa fa-heart-o"></i></span>
+      <span><a href="#">Contact</a></span>
+    </div>
+  </div>
+</nav>

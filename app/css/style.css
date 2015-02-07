@@ -1,0 +1,87 @@
+body{
+  font-family: proximanova,"Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.navbar{
+  background: white;
+  border-bottom: 5px solid #5199a8;
+  border-radius: 0px;
+}
+
+.fa{
+  color: #5199a8;
+}
+
+.navbar-right{
+  display: inline-flex;
+}
+
+#front-page-info-container{
+  text-align: center;
+  color: rgb(129, 129, 129);
+}
+
+.header-title{
+  font-family: cursive;
+  font-weight: 200;
+}
+
+.navbar-brand{
+  font-family: cursive;
+}
+
+.navbar-default .navbar-brand{
+  color: #5199a8;
+}
+
+.carousel-control.right{
+  display: none;
+}
+
+.carousel-control.left{
+  display: none;
+}
+
+#carousel-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#cat-image{
+  margin: auto;
+}
+
+.navbar-fixed-bottom{
+  border-top: 5px solid #5199a8;
+  border-radius: 0px;
+  border-bottom: none;
+}
+
+#bottom-nav>span>a{
+  font-size: 16px;
+  color: #5199a8;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: 200;
+}
+
+#bottom-nav>span>a{
+  color: #5199a8;
+}
+
+.fa.fa-heart-o{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+#bottom-nav{
+  text-align: center;
+}

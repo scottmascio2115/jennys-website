@@ -11,6 +11,9 @@
     "angular-loader": "1.2.x",
     "angular-mocks": "~1.2.x",
     "html5-boilerplate": "~4.3.0",
-    "angular-moment": "~0.8.2"
+    "angular-moment": "~0.8.2",
+    "angular-bootstrap": "~0.12.0",
+    "angular-typewrite": "~0.0.4",
+    "components-font-awesome": "~4.3.0"
   }
 }
